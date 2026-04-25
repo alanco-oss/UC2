@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+{margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+font-family:roboto, sans-serif}
+
+
+.conteudo-secao-p{ text-align: justify;
+
+}
+.cabecalho-secao{
+    font-family: 'Lucinda Sans';
+    color:crimson
+}
+.titulo-curiosidade{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:lightcoral;
+    font-size: .8rem;
+}
+body{background-color: rgb(213,216,179);}
+footer{border-top:2px solid crimson;
+}
+
+
+
+.cabecalho{
+    background-color: rgb(213,216,179);
+    padding: 10px 0px;
+    width: 940px;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.hmenu{
+    position: absolute;
+    top: 55px;
+    right:0px;
+}
+
+.hmenu ul li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.hmenu ul li a {
+    
+}
+
