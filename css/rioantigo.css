@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-{margin: 0 auto;
+.conteudo-principal{
+    width:940px;
+    border-top: 2px;
+}
+.conteudo-principal{margin: 0 auto;
 padding: 0;
 box-sizing: border-box;
 font-family:roboto, sans-serif}
 
+.conteudo-secao {
+    padding: 10px 0px;
+    
+}
+.titulo-principal{
+    font-family: "Arima", system-ui;
+    font-size: 30px;
+    color:green }
 
 .conteudo-secao-p{ text-align: justify;
-
+color:blue
 }
 .cabecalho-secao{
-    font-family: 'Lucinda Sans';
-    color:crimson
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:hotpink;
+    margin-bottom: 10px
 }
 .titulo-curiosidade{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -19,7 +31,7 @@ font-family:roboto, sans-serif}
     font-size: .8rem;
 }
 body{background-color: rgb(213,216,179);}
-footer{border-top:2px solid crimson;
+footer{border: top 2cm solid crimson;
 }
 
 
@@ -52,6 +64,29 @@ footer{border-top:2px solid crimson;
 }
 
 .hmenu ul li a {
-    
+    color: #024b4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
 }
 
+.hmenu ul li a:hover{
+    color: rgb(224,134,30);
+    border-bottom: 1px solid rgb(224,134,30);
+
+}
+
+.rodape {
+    background-color: rgb(245.247.230);
+    width: 940px;
+    margin-top: 20px;
+}
+.rodape div{
+    margin: 0 auto;
+    box-sizing: borderbox;
+}
+
+.rodape h3{
+    
+}
