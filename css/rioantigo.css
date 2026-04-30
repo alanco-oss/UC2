@@ -6,7 +6,7 @@
 .conteudo-principal{margin: 0 auto;
 padding: 0;
 box-sizing: border-box;
-font-family:roboto, sans-serif}
+font-family:roboto, sans-serif;}
 
 .conteudo-secao {
     padding: 10px 0px;
@@ -15,15 +15,16 @@ font-family:roboto, sans-serif}
 .titulo-principal{
     font-family: "Arima", system-ui;
     font-size: 30px;
-    color:green }
+    color:green; }
 
-.conteudo-secao-p{ text-align: justify;
-color:blue
+.conteudo-secao p{ text-align: justify;
+
 }
 .cabecalho-secao{
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:hotpink;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    
 }
 .titulo-curiosidade{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -78,15 +79,33 @@ footer{border: top 2cm solid crimson;
 }
 
 .rodape {
-    background-color: rgb(245.247.230);
+    background-color: rgb(39,150,100);
     width: 940px;
     margin-top: 20px;
+    
+    justify-content: center;
 }
 .rodape div{
     margin: 0 auto;
     box-sizing: borderbox;
 }
 
-.rodape h3{
+.rodape h3 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ 
+.rodape h4 {
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
     
+}
+
+.rodape ul {
+    margin-left: 20px;
+    padding: 20px;
 }

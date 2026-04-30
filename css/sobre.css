@@ -9,9 +9,11 @@
 .video-sobrenos {
     padding: 10px;
     width: 800px;
+    align-content: center;
 }
 .video-sobrenos video {
-    width: 100%
+    width: 100%;
+    padding: 10px
 }
 
 .mapa-sobrenos {
@@ -22,10 +24,11 @@
     border-radius: 4px;
 }
 .audio-sobrenos {
-    width:80%
+    width:99%
 }
 .audio-sobrenos audio {
     width: 100% ;
     border: 1px solid #470664;
     border-radius: 18px;
 }
+hr{color:black}
