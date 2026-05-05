@@ -5,6 +5,7 @@
 }
 .conteudo-principal{margin: 0 auto;
 padding: 0;
+width: 940px;
 box-sizing: border-box;
 font-family:roboto, sans-serif;}
 
@@ -78,16 +79,52 @@ footer{border: top 2cm solid crimson;
 
 }
 
+.sobre-rio-antigo {
+    margin: 20px 0 30px 0;
+    padding: 10px 0;
+    box-sizing: border-box;}
+.sobre-rio-antigo h3{
+    padding: 10px 0;
+    font-family: monospace;
+    font-size: 20px;
+    color:brown;
+}
+.sobre-rio-antigo p{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+}
+.pierre-verger{
+    font-weight: bold;
+    color: blue;
+}
+.pierre-verger a{
+    text-decoration: none;
+}
+.pierre-verger a:visited{
+    color: blueviolet;
+}
+.conteudo-rio-antigo-cabecalho th{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Arima', cursive;
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: #470864;
+}
 .rodape {
     background-color: rgb(39,150,100);
-    width: 940px;
+    margin: 0 auto;
+    width: 100%;
     margin-top: 20px;
     
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .rodape div{
     margin: 0 auto;
-    box-sizing: borderbox;
+    box-sizing: border-box;
 }
 
 .rodape h3 {
@@ -106,6 +143,7 @@ footer{border: top 2cm solid crimson;
 }
 
 .rodape ul {
-    margin-left: 20px;
+    margin: 0 auto;
     padding: 20px;
+    list-style: none;
 }

@@ -28,7 +28,7 @@
         <div class="titulo-principal">
             <h2>Converse conosco</h2>
         </div>
-          <div class="divform">
+        <div class="divform">
             <form name="frmContrato" id="idContrato" action="#" method="post">
                 <fieldset>
                     <div class="label">
@@ -46,25 +46,49 @@
                     <div class="label">
                         <label for="idGenero">Gênero</label>
                     </div>
+                    <div>
                     <input type="radio" id="idGeneroM" name="genero" value="M" class="radio">
                     <label for="idGeneroM" name="genero" class="label-radio">Masculino</label>
                     <input type="radio" id="idGeneroF" name="genero" value="F" class="radio">
                     <label for="idGeneroF" name="genero" class="label-radio">Feminino</label>
                     <input type="radio" id="idGeneroO" name="genero" value="O" class="radio">
                     <label for="idGeneroO" name="genero" class="label-radio">Outros</label>
+                    </div>
+                    <div class="label">
+                        <label for="idAssunto">Assunto</label>
+                    </div>
+                    <div class="assunto"></div>
+                        <select name="assunto" id="idAssunto">
+                        <option value="0" selected> Selecione... </option>
+                        <option value="E">Elogio</option>
+                        <option value="C">Crítica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                        </select>
+                    
+                    <div>
+                        <label for="idMensagem">Mensagem</label>
+                    </div>
+                        <textarea rows="10" cols="200" id="idMensagem" name="mensagem" placeholder="Preencha com a mensagem desejada" id="minhaTextArea"></textarea>
+                    <div class="botoes">
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </div>
+
                 </fieldset> 
             </form>
-          </div>
+        </div>
+
     </main>
     <footer class="rodape">
-    <div><h3>Senac</h3></div>
-    <div>
+        <div><h3>Senac</h3></div>
+        <div>
         <h4>Fontes</h4>
         <ul>
             <li>E-mail: sobre@rj.senac.br</li>
             <li>Contato: Alunos e professores do Senac</li>
         </ul>
-</div>
+        </div>
     </footer>
  </body>
  </html>
